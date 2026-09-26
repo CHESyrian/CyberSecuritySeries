@@ -27,3 +27,12 @@ All content is conceptual and beginner-friendly. No actionable attack instructio
 7. Blue Team (conceptual)
 
 After completing Phase-0 you will be ready for the main staged curriculum (Introduction → CIA Triad → … → Penetration Testing Methodology).
+
+## Self-check / review checklist
+
+Before Phase-1, confirm you can:
+- [ ] Explain hardware vs software and what an OS does
+- [ ] Use basic Linux and Windows navigation comfortably
+- [ ] Describe IP, ports, and client–server at a high level
+- [ ] State what cybersecurity is trying to protect (people, data, systems)
+- [ ] Distinguish red-team vs blue-team *roles* (not attack steps)

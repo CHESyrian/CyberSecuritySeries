@@ -1,0 +1,74 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Lab captures and scan output (do not commit real captures)
+*.pcap
+*.pcapng
+*.cap
+nmap_lab_output/
+*.nmap
+*.gnmap
+*.xml
+
+# Evidence / IR / local notes
+ir_lab_evidence_*/
+baseline_ports_*.txt
+lab_ir_timeline.md
+*_evidence_*/
+*.log
+
+# Secrets and local config (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+credentials*
+secrets*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# Jupyter / local tooling
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Archives and temp
+*.zip
+*.tar
+*.tar.gz
+*.tmp
+tmp/
+temp/
+/tmp/
+
+# Project-local agent / editor state (optional keep policy)
+# Uncomment if you do not want to version agent metadata:
+# .grok/

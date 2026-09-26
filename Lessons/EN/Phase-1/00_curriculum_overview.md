@@ -38,3 +38,12 @@ By the end you will understand:
 This series is strictly theoretical and educational. It describes *what* security professionals think about and *why* certain processes exist. It never provides step-by-step instructions for attacking systems.
 
 Ready? Start with Stage 1.
+
+## Self-check / review checklist
+
+Before Phase-2, confirm you can:
+- [ ] Explain CIA and give one example for each letter
+- [ ] Describe risk as likelihood × impact (conceptually)
+- [ ] Outline access control ideas (identity, authentication, authorization)
+- [ ] State why ethics and authorization matter before any active test
+- [ ] List the high-level phases of a penetration test *process* (no tool recipes)
