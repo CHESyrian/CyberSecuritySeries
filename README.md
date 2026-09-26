@@ -128,3 +128,5 @@ Each tool entry includes: **name**, **what it is for**, **explanation**, **usage
 - **AR** — Arabic parallel  
 
 Prefer the language you learn in; the other remains available for reference.
+
+## By Help : **GROK**
