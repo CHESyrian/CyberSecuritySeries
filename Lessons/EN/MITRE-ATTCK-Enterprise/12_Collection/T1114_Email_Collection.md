@@ -1,0 +1,12 @@
+# T1114: Email Collection
+
+**Type:** Technique  
+**Platforms:** Windows, macOS, Linux, Office Suite  
+**Tactics:** collection
+
+## Description / Explanation
+
+Adversaries may target user email to collect sensitive information. Emails may contain sensitive data, including trade secrets or personal information, that can prove valuable to adversaries. Emails may also contain details of ongoing incident response operations, which may allow adversaries to adjust their techniques in order to maintain persistence or evade defenses.(Citation: TrustedSec OOB Communications)(Citation: CISA AA20-352A 2021) Adversaries can collect or forward email from mail servers or clients.
+
+---
+*Source: [MITRE ATT&CK Technique T1114](https://attack.mitre.org/techniques/T1114/)*

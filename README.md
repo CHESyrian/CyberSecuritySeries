@@ -16,15 +16,17 @@ Bilingual (English + Arabic) progressive curriculum: absolute beginner → inter
 │   │   ├── Foundations/      ← Phase-0
 │   │   ├── Phase-1/          ← Conceptual core
 │   │   ├── Phase-2/          ← Intermediate practical lab
-│   │   └── Phase-3/          ← Specialized Tracks 1–5
-│   └── AR/                   ← Full Arabic parallel
+│   │   ├── Phase-3/          ← Specialized Tracks 1–5
+│   │   └── MITRE-ATTCK-Enterprise/  ← Tactic/technique summary (v19-aware)
+│   └── AR/                   ← Full Arabic parallel (incl. MITRE-ATTCK-Enterprise)
 ├── Codes/
 │   ├── Python/               ← Phase-2 stages + Track-1/2/5 helpers + 04_network_analysis
 │   ├── Bash/                 ← Phase-2 stages + Track helpers
 │   └── PowerShell/           ← Stage 3 Windows helpers
-└── Tools/
-    ├── EN/                   ← Tool name, purpose, explanation, lab examples
-    └── AR/                   ← Arabic parallel
+├── Tools/
+│   ├── EN/                   ← Tool name, purpose, explanation, lab examples
+│   └── AR/                   ← Arabic parallel
+└── Diagrams/                 ← Central Mermaid diagrams (curriculum, concepts, lab, ATT&CK, defense)
 ```
 
 ---
@@ -125,8 +127,22 @@ Each tool entry includes: **name**, **what it is for**, **explanation**, **usage
 ## Languages
 
 - **EN** — English lessons and tool guides  
-- **AR** — Arabic parallel  
+- **AR** — Arabic parallel (full depth matching EN for Phase-0 through Phase-3)
 
 Prefer the language you learn in; the other remains available for reference.
 
-## By Help : **GROK**
+---
+
+## Phase-3 status (EN + AR)
+
+All five specialized tracks are fully expanded in **both English and Arabic**:
+
+| Track | Stages | Capstone |
+|-------|--------|----------|
+| 1 Web Application Security | 01–08 | Track capstone report |
+| 2 SOC / Detection Engineering | 01–08 | Detection pack |
+| 3 Network & Infrastructure Defense | 01–07 | Defended lab |
+| 4 Cloud Security Fundamentals | 01–07 | Cloud baseline checklist |
+| 5 Adversary Simulation Basics | 01–06 | Purple-team report |
+
+Each stage includes: learning objectives, safety checkpoint, extended explanations, tables, Mermaid diagrams where useful, lab walkthroughs, common mistakes, best practices, hands-on exercises, review questions, and summary. All practical work remains restricted to authorized lab environments only.

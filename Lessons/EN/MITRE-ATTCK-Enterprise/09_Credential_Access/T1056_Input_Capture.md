@@ -1,0 +1,12 @@
+# T1056: Input Capture
+
+**Type:** Technique  
+**Platforms:** Linux, macOS, Network Devices, Windows  
+**Tactics:** collection, credential-access
+
+## Description / Explanation
+
+Adversaries may use methods of capturing user input to obtain credentials or collect information. During normal system usage, users often provide credentials to various different locations, such as login pages/portals or system dialog boxes. Input capture mechanisms may be transparent to the user (e.g. [Credential API Hooking](https://attack.mitre.org/techniques/T1056/004)) or rely on deceiving the user into providing input into what they believe to be a genuine service (e.g. [Web Portal Capture](https://attack.mitre.org/techniques/T1056/003)).
+
+---
+*Source: [MITRE ATT&CK Technique T1056](https://attack.mitre.org/techniques/T1056/)*

@@ -1,0 +1,16 @@
+# T1070: Indicator Removal
+
+**Type:** Technique  
+**Platforms:** Containers, ESXi, Linux, macOS, Network Devices, Office Suite, Windows  
+**Tactics:** stealth
+
+## Description / Explanation
+
+Adversaries may selectively delete or modify artifacts generated to reduce indications of their presence and blend in with legitimate activity. Rather than broadly removing evidence, adversaries may target specific artifacts that appear anomalous or are likely to draw scrutiny, while leaving sufficient data intact to maintain the appearance of normal system behavior.
+
+Artifacts such as command histories, log entries, or file metadata may be altered in ways that align with expected user or system activity. Location, format, and type of artifact (such as command or login history) are often platform-specific, allowing adversaries to tailor modifications that minimize suspicion.
+
+These actions may not prevent detection entirely but can delay recognition of malicious activity or reduce the fidelity of alerts by making events appear benign or consistent with routine operations. Additionally, selectively removed or modified artifacts may still be recoverable through deeper forensic analysis, though their absence or alteration can complicate timeline reconstruction and attribution.
+
+---
+*Source: [MITRE ATT&CK Technique T1070](https://attack.mitre.org/techniques/T1070/)*
