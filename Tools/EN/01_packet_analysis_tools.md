@@ -7,7 +7,7 @@ Used mainly in **Phase-2 Stage 4** and Phase-3 Tracks 3 and 5.
 ## Wireshark
 
 | | |
-|--|--|
+|---|---|
 | **What it is** | Graphical packet capture and protocol analyzer |
 | **Used for** | Seeing traffic on a lab interface; applying display filters; following TCP streams; inspecting DNS/HTTP/TLS handshakes in a lab |
 
@@ -31,7 +31,7 @@ Used mainly in **Phase-2 Stage 4** and Phase-3 Tracks 3 and 5.
 ## tshark
 
 | | |
-|--|--|
+|---|---|
 | **What it is** | Command-line engine of Wireshark |
 | **Used for** | Headless capture; scripting; quick PCAP summaries on lab VMs without a GUI |
 
@@ -64,7 +64,7 @@ tshark -r lab.pcap -Y "dns or http"
 ## Scapy (Python)
 
 | | |
-|--|--|
+|---|---|
 | **What it is** | Python library to sniff, dissect, craft, and send packets |
 | **Used for** | Learning packet structure; controlled lab experiments; reading PCAPs programmatically |
 
@@ -86,7 +86,7 @@ python3 Codes/Python/04_network_analysis/send_dns_scapy.py   # lab DNS target on
 ## tcpdump
 
 | | |
-|--|--|
+|---|---|
 | **What it is** | Classic CLI packet capture on many Linux systems |
 | **Used for** | Quick captures when Wireshark/tshark are not installed |
 
@@ -101,7 +101,7 @@ sudo tcpdump -i eth0 -n -c 50 -w lab_snap.pcap
 ## ping
 
 | | |
-|--|--|
+|---|---|
 | **What it is** | ICMP echo request/reply utility |
 | **Used for** | Basic reachability check to a **lab** host before deeper work |
 
@@ -124,9 +124,9 @@ Also wrapped in `Codes/Bash/01_lab_setup/check_lab_connectivity.sh`.
 4. Stop capture; save `lab_session.pcap`.
 5. Filter: `icmp or http or dns`.
 6. Summarize with:
-   ```bash
-   ./Codes/Bash/04_network_analysis/tshark_quick_summary.sh lab_session.pcap
-   ```
+```bash
+./Codes/Bash/04_network_analysis/tshark_quick_summary.sh lab_session.pcap
+```
 7. Optional: read the same PCAP with Scapy educational scripts under `Codes/Python/04_network_analysis/`.
 
 **Common mistakes**

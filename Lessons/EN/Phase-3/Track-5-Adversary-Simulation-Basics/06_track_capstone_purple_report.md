@@ -56,7 +56,7 @@ By the end of this stage you will be able to:
 A chronological table or list:
 
 | Time | Action (simulation) | Host / target | Evidence reference | Detection result |
-|------|---------------------|---------------|--------------------|------------------|
+|-------|----------------------|----------------|---------------------|-------------------|
 
 ### 4. Evidence summary
 

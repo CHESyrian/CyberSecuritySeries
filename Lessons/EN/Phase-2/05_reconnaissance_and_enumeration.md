@@ -38,7 +38,7 @@ Unauthorized port scanning can be illegal. Treat scope as sacred.
 ## 1. Passive vs Active Reconnaissance
 
 | Type | Description | Examples in a lab context |
-|------|-------------|---------------------------|
+|-------|--------------|----------------------------|
 | **Passive** | Collecting information without sending packets to the target | Reviewing lab documentation, examining your own VM configuration files, looking at previously captured PCAPs |
 | **Active** | Sending packets to the target to elicit responses | Ping sweeps, port scans, service version probes against lab VMs |
 
@@ -73,7 +73,7 @@ Once you know a host is alive, the next question is: which ports are open and wh
 Nmap is the industry-standard tool. Essential concepts:
 
 | Scan type (conceptual) | What it does | Typical use in learning |
-|------------------------|--------------|-------------------------|
+|-------------------------|---------------|--------------------------|
 | TCP SYN scan (`-sS`) | Sends SYN packets; interprets responses | Fast, common default for privileged users |
 | TCP Connect scan (`-sT`) | Completes the full TCP handshake | Works without special privileges |
 | UDP scan (`-sU`) | Probes UDP ports | Slower; useful for DNS, SNMP, etc. |
@@ -135,7 +135,7 @@ A simple markdown or text template is enough at this stage. Later you will turn 
 ## Common Mistakes
 
 | Mistake | Risk | Better practice |
-|---------|------|-----------------|
+|----------|-------|------------------|
 | Scanning the wrong IP range | Hitting systems outside the lab | Double-check interface and IP addresses before every scan |
 | Running aggressive scans on fragile lab VMs | Crashing a target | Start with milder options; snapshot first |
 | Treating version detection as 100% accurate | Wrong conclusions | Treat banners and version guesses as hints, not proof |
@@ -160,7 +160,7 @@ A simple markdown or text template is enough at this stage. Later you will turn 
 ## Practical code (Codes/)
 
 | Script | Purpose |
-|--------|---------|
+|---------|----------|
 | `Codes/Bash/05_reconnaissance/safe_lab_nmap.sh` | Nmap wrapper that writes dated output under `./nmap_lab_output` |
 | `Codes/Python/05_reconnaissance/lab_port_scan.py` | Minimal educational TCP port check |
 | `Codes/Python/05_reconnaissance/lab_banner_grab.py` | Short TCP banner grab (no exploitation) |

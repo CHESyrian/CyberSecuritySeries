@@ -126,7 +126,7 @@ Working through such questions in writing or with a partner solidifies the lifec
 ## 6. Linking IR to the Rest of Phase-2
 
 | Earlier stage | Contribution to IR |
-|---------------|--------------------|
+|----------------|---------------------|
 | Lab setup & safety | Clean snapshots and isolation make containment and recovery practical |
 | Linux / Windows skills | Live response and log analysis on the affected hosts |
 | Network analysis | Understanding traffic related to the incident |
@@ -141,7 +141,7 @@ Incident response is the discipline that uses nearly every skill developed so fa
 ## Common Mistakes
 
 | Mistake | Consequence | Better practice |
-|---------|-------------|-----------------|
+|----------|--------------|------------------|
 | Jumping straight to eradication without understanding scope | Incomplete removal; repeated incidents | Analyze before major changes when possible |
 | Destroying evidence in the rush to recover | Lost opportunity to learn and to support later investigation | Capture first, then remediate |
 | Treating every alert as a full incident | Exhaustion and poor prioritization | Use severity and confidence criteria |
@@ -165,7 +165,7 @@ Incident response is the discipline that uses nearly every skill developed so fa
 ## Practical code (Codes/)
 
 | Script | Purpose |
-|--------|---------|
+|---------|----------|
 | `Codes/Bash/10_incident_response/collect_basic_evidence.sh` | Collect process list, sockets, addresses, auth tail into a dated folder |
 | `Codes/Python/10_incident_response/timeline_template.py` | Print a markdown IR timeline template for lab notes |
 

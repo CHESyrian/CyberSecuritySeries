@@ -16,7 +16,7 @@ By the end you will understand:
 **How the series is organized**
 
 | Stage | File | Focus |
-|-------|------|-------|
+|--------|-------|--------|
 | 0 | This file | Curriculum map and learning tips |
 | 1 | `01_introduction_to_cybersecurity.md` | What cybersecurity is and why it exists |
 | 2 | `02_cia_triad_and_core_concepts.md` | The three fundamental security goals |

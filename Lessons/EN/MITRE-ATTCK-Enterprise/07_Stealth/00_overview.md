@@ -21,7 +21,7 @@ Stealth focuses on techniques that help adversaries avoid detection by blending 
 ## Techniques in this Tactic (148 total)
 
 | ID | Name | Type |
-|----|------|------|
+|-----|-------|-------|
 | [T1006](T1006_Direct_Volume_Access.md) | Direct Volume Access | Technique |
 | [T1014](T1014_Rootkit.md) | Rootkit | Technique |
 | [T1027](T1027_Obfuscated_Files_or_Information.md) | Obfuscated Files or Information | Technique |

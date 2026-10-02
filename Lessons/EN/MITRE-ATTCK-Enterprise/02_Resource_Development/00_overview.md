@@ -22,7 +22,7 @@ Adversaries may buy, lease, or compromise resources that can be used during targ
 ## Techniques in this Tactic (50 total)
 
 | ID | Name | Type |
-|----|------|------|
+|-----|-------|-------|
 | [T1583](T1583_Acquire_Infrastructure.md) | Acquire Infrastructure | Technique |
 | [T1583.001](T1583.001_Domains.md) | Domains | Sub-technique |
 | [T1583.002](T1583.002_DNS_Server.md) | DNS Server | Sub-technique |

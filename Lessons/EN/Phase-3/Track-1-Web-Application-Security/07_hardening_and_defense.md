@@ -43,7 +43,7 @@ By the end of this stage you will be able to:
 ### 1. Security headers that matter
 
 | Header | Purpose | Typical strong value (illustrative) |
-|--------|---------|-------------------------------------|
+|---------|----------|--------------------------------------|
 | `Content-Security-Policy` | Restrict sources of script, style, frames, etc. | `default-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self'` (tune per app) |
 | `Strict-Transport-Security` | Force HTTPS, enable preload eligibility | `max-age=31536000; includeSubDomains` |
 | `X-Content-Type-Options` | Prevent MIME sniffing | `nosniff` |
@@ -120,7 +120,7 @@ flowchart TB
 5. Draft a short checklist result:
 
    | Control | Present? | Notes / recommendation |
-   |---------|----------|------------------------|
+   |----------|-----------|-------------------------|
    | CSP | Partial / Missing | … |
    | HSTS | … | … |
    | Cookie flags | … | … |

@@ -6,7 +6,7 @@ All diagrams are educational, high-level, and intended for authorized learning o
 ## Folder map
 
 | Folder | Focus |
-|--------|--------|
+|---------|---------|
 | `00_Curriculum/` | Phase progression, learning path |
 | `01_Foundations/` | Computer basics, red/blue conceptual |
 | `02_Phase1_Concepts/` | CIA, risk, attack surfaces, pentest methodology |

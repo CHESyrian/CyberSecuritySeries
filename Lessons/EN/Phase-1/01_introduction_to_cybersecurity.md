@@ -37,7 +37,7 @@ Cybersecurity applies the same ideas to computers, phones, cloud services, and d
 ## Key Terms You Will See Everywhere
 
 | Term | Plain-language meaning |
-|------|------------------------|
+|-------|-------------------------|
 | **Asset** | Anything worth protecting (data, a computer, a service, reputation) |
 | **Threat** | Something that could cause harm to an asset |
 | **Vulnerability** | A weakness that a threat could exploit |

@@ -22,7 +22,7 @@ Defenders use the matrix for threat modeling, detection coverage mapping, red/pu
 Tactics represent the adversary's tactical goals (the "why").
 
 | ID | Tactic | Folder |
-|----|--------|--------|
+|-----|---------|---------|
 | TA0043 | Reconnaissance | [01_Reconnaissance/](01_Reconnaissance/) |
 | TA0042 | Resource Development | [02_Resource_Development/](02_Resource_Development/) |
 | TA0001 | Initial Access | [03_Initial_Access/](03_Initial_Access/) |

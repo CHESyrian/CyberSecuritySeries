@@ -25,7 +25,7 @@ Learners who finished Phase-2 and want to understand attacker *paths* in order t
 ## Track organization
 
 | Stage | File | Focus |
-|-------|------|-------|
+|--------|-------|--------|
 | 0 | This file | Track map, ethics, safety |
 | 5.1 | `01_attack_mapping_and_scope.md` | ATT&CK tactics as labels; RoE for lab scenarios |
 | 5.2 | `02_lab_initial_access_patterns.md` | Intentional weak services/apps as entry (lab only) |
@@ -39,7 +39,7 @@ Learners who finished Phase-2 and want to understand attacker *paths* in order t
 ## Lab setup notes
 
 | Component | Role |
-|-----------|------|
+|------------|-------|
 | Intentional targets | Metasploitable, DVWA, Juice Shop, weak lab AD (optional) |
 | Clean snapshots | Return to known state after each scenario |
 | Logging on | So Track 2-style detections have signal |
@@ -84,7 +84,7 @@ One end-to-end lab scenario report: timeline, evidence, mapped tactics, detectio
 ## Companion code
 
 | Area | Location |
-|------|----------|
+|-------|-----------|
 | Recon / web / logs | Phase-2 `Codes/` scripts for generating and detecting lab activity |
 | Evidence collection | `Codes/Bash/10_incident_response/collect_basic_evidence.sh` |
 | Track 5 | Scenario templates under track folder as stages are written |

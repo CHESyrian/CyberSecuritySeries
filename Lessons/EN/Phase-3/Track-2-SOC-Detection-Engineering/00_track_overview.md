@@ -26,7 +26,7 @@ Learners who finished Phase-2 and want depth on the blue-team side: collecting s
 ## Track organization
 
 | Stage | File | Focus |
-|-------|------|-------|
+|--------|-------|--------|
 | 0 | This file | Track map, outcomes, safety |
 | 2.1 | `01_log_sources_and_pipelines.md` | What to collect, retention, normalization concepts |
 | 2.2 | `02_siem_search_and_correlation.md` | Search, simple joins/correlation in lab |
@@ -42,7 +42,7 @@ Learners who finished Phase-2 and want depth on the blue-team side: collecting s
 ## Lab setup notes
 
 | Component | Role |
-|-----------|------|
+|------------|-------|
 | Target VMs | Produce auth failures, process starts, web logs |
 | Optional SIEM | Search and alert in one place |
 | Attacker VM | Generate *lab-only* activity to detect |
@@ -92,7 +92,7 @@ Script or manually run a lab scenario; ship 3+ detections; triage table; one-pag
 ## Companion code
 
 | Area | Location |
-|------|----------|
+|-------|-----------|
 | Auth failure helpers | `Codes/Bash/09_logging_detection/`, `Codes/Python/09_logging_detection/` |
 | IR evidence helper | `Codes/Bash/10_incident_response/` |
 | Track 2 extensions | Added under `Codes/` as stages are written |

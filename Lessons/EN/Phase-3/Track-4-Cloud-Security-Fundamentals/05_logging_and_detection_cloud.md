@@ -50,7 +50,7 @@ Cloud control-plane actions (creating users, changing security groups, modifying
 ### 2. Typical laboratory audit-log sources
 
 | Provider family | Common name / concept |
-|-----------------|-----------------------|
+|------------------|------------------------|
 | AWS-style | CloudTrail (management events) |
 | Azure-style | Activity Log / Azure Monitor |
 | GCP-style | Cloud Audit Logs |

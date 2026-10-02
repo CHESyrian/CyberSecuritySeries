@@ -7,7 +7,7 @@ All content is conceptual and beginner-friendly. No actionable attack instructio
 ## Module List
 
 | File | Topic |
-|------|-------|
+|-------|--------|
 | `01_computer_basics.md` | Computer architecture, CPU/RAM/Storage, OS & processes, files & privileges, users/groups, services & ports, client/server, virtual machines |
 | `02_linux_system.md` | Filesystem, permissions, users/groups, processes, services, logs, SSH, Bash scripting |
 | `03_windows_system.md` | Windows architecture, NTFS permissions, services, processes, Registry, Event Viewer, PowerShell, Active Directory |

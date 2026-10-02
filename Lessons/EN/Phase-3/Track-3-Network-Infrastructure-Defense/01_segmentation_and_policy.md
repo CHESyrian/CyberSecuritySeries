@@ -44,7 +44,7 @@ By the end of this stage you will be able to:
 A trust zone is a group of systems that share a similar security posture and are allowed to communicate more freely with each other than with systems outside the zone. Common laboratory zones include:
 
 | Zone | Typical contents | Trust level |
-|------|------------------|-------------|
+|-------|-------------------|--------------|
 | Management | Jump hosts, admin workstations, configuration servers | Higher (tightly controlled) |
 | Workload / Application | Web apps, databases, lab services under test | Medium |
 | Monitoring / SOC | Log collectors, SIEM, sensors | High (read-mostly from other zones) |

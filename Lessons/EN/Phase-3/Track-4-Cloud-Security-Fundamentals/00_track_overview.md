@@ -24,7 +24,7 @@ Learners who finished Phase-2 and want a **vendor-agnostic** foundation for clou
 ## Track organization
 
 | Stage | File | Focus |
-|-------|------|-------|
+|--------|-------|--------|
 | 0 | This file | Track map, outcomes, safety |
 | 4.1 | `01_shared_responsibility.md` | Provider vs customer duties |
 | 4.2 | `02_identity_and_least_privilege.md` | Users, roles, keys, temporary credentials *concepts* |
@@ -41,7 +41,7 @@ Learners who finished Phase-2 and want a **vendor-agnostic** foundation for clou
 Preferred options (pick what you can afford/control):
 
 | Option | Notes |
-|--------|--------|
+|---------|---------|
 | Local emulators / localstack-style tools | No public cloud spend |
 | Single free-tier account **you own** | Tight budget alerts; never real secrets in git |
 | Cloud-like Kubernetes local cluster | Optional later depth |
@@ -87,7 +87,7 @@ Apply the checklist to your chosen lab stack; note residual risks and follow-ups
 ## Companion code
 
 | Area | Location |
-|------|----------|
+|-------|-----------|
 | General crypto/hash | `Codes/Python/08_cryptography/`, `Codes/Bash/08_cryptography/` |
 | Track 4 extensions | Policy/checklist generators or safe CLI wrappers added later under `Codes/` |
 

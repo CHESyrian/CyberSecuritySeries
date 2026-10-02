@@ -93,7 +93,7 @@ The idea of using multiple layers of protection so that if one fails, others sti
 ## Summary
 
 | Goal | Core Question | Failure Looks Like |
-|------|---------------|--------------------|
+|-------|----------------|---------------------|
 | Confidentiality | Who can see it? | Unauthorized disclosure |
 | Integrity | Has it been changed? | Unauthorized modification |
 | Availability | Can I use it when I need it? | System or data unavailable |

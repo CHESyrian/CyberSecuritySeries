@@ -7,7 +7,7 @@ Used mainly in **Phase-3 Track 3** (infra) and **Track 4** (cloud fundamentals).
 ## Host baseline inspection (Linux / Windows)
 
 | | |
-|--|--|
+|---|---|
 | **What it is** | Using existing shell tools and project scripts to record “normal” listening ports and services |
 | **Used for** | Hardening lab VMs; noticing unnecessary exposure |
 
@@ -30,7 +30,7 @@ Used mainly in **Phase-3 Track 3** (infra) and **Track 4** (cloud fundamentals).
 ## Nmap (inventory role)
 
 | | |
-|--|--|
+|---|---|
 | **Used for** | Authorized inventory of lab hosts during a vulnerability-management mini-cycle |
 
 **Example:**
@@ -46,7 +46,7 @@ See also `Tools/EN/03_recon_and_scan_tools.md`.
 ## Firewall / segmentation (lab concepts)
 
 | | |
-|--|--|
+|---|---|
 | **What it is** | Policy devices or OS firewalls separating trust zones |
 | **Used for** | Practicing default-deny thinking between lab segments |
 
@@ -59,7 +59,7 @@ See also `Tools/EN/03_recon_and_scan_tools.md`.
 ## IDS/IPS concepts (lab traffic)
 
 | | |
-|--|--|
+|---|---|
 | **What it is** | Network sensors that alert (IDS) or may block (IPS) on matching patterns |
 | **Used for** | Understanding placement and false positives using **lab PCAPs or generated lab traffic** |
 
@@ -70,7 +70,7 @@ See also `Tools/EN/03_recon_and_scan_tools.md`.
 ## Cloud provider CLIs (optional, lab/free-tier only)
 
 | | |
-|--|--|
+|---|---|
 | **Examples** | AWS CLI, Azure CLI, Google Cloud SDK |
 | **Used for** | Inspecting **your** lab/free-tier resources (identity, network rules, storage exposure) |
 
@@ -92,14 +92,14 @@ See also `Tools/EN/03_recon_and_scan_tools.md`.
 
 1. Snapshot the lab VM.
 2. Record ports:
-   ```bash
-   ./Codes/Bash/Track-3-Infra/baseline_ports_note.sh
-   ./Codes/Bash/02_linux_security/host_inspect.sh
-   ```
+```bash
+./Codes/Bash/Track-3-Infra/baseline_ports_note.sh
+./Codes/Bash/02_linux_security/host_inspect.sh
+```
 3. Inventory one lab host only:
-   ```bash
-   ./Codes/Bash/05_reconnaissance/safe_lab_nmap.sh 192.168.56.10
-   ```
+```bash
+./Codes/Bash/05_reconnaissance/safe_lab_nmap.sh 192.168.56.10
+```
 4. Document: port, process, need-to-have yes/no, action.
 
 **Cloud lab habit (free-tier / emulator you own)**

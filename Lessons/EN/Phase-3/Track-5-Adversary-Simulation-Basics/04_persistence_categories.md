@@ -41,7 +41,7 @@ By the end of this stage you will be able to:
 ### 1. Persistence categories (laboratory view)
 
 | Category | Linux examples | Windows examples | Defender visibility |
-|----------|----------------|------------------|---------------------|
+|-----------|-----------------|-------------------|----------------------|
 | Service / daemon | systemd unit, init script | Windows service | Service inventory, creation events |
 | Scheduled task / cron | crontab, systemd timers | Task Scheduler | Task listing, creation logs |
 | Startup / logon script | shell rc files, XDG autostart | Run keys, Startup folder | Registry / file monitoring |

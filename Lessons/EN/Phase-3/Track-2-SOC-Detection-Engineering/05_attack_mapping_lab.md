@@ -53,7 +53,7 @@ For early laboratory work, tactic-level labels are usually sufficient and more s
 ### 3. Practical laboratory mapping examples
 
 | Laboratory activity | Possible ATT&CK tactics |
-|---------------------|-------------------------|
+|----------------------|--------------------------|
 | Port scan or service enumeration against lab hosts | Discovery, Reconnaissance (if external) |
 | Failed then successful SSH/RDP | Credential Access, Initial Access |
 | Web injection or XSS on a training app | Initial Access (if it leads to further access), Execution (in some interpretations) |
@@ -83,12 +83,12 @@ flowchart LR
 3. Consult the ATT&CK matrix and assign 2–3 tactics that best describe the adversary goal illustrated by those behaviors.
 4. Write a short mapping entry:
 
-   ```
+```
    Scenario: Laboratory SSH brute-force followed by success
    Behaviors: multiple  failed logons, one success, subsequent command
    Tactics: Credential Access, Initial Access, (optional) Execution
    Notes: Used for detection validation in Stage 2.3
-   ```
+```
 
 5. Optionally note which of your existing detections cover each tactic.
 

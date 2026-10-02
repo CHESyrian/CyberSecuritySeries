@@ -28,7 +28,7 @@ Reconnaissance consists of techniques that involve adversaries actively or passi
 ## Techniques in this Tactic (46 total)
 
 | ID | Name | Type |
-|----|------|------|
+|-----|-------|-------|
 | [T1589](T1589_Gather_Victim_Identity_Information.md) | Gather Victim Identity Information | Technique |
 | [T1589.001](T1589.001_Credentials.md) | Credentials | Sub-technique |
 | [T1589.002](T1589.002_Email_Addresses.md) | Email Addresses | Sub-technique |

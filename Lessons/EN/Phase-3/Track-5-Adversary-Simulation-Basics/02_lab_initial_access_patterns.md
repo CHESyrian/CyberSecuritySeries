@@ -41,7 +41,7 @@ By the end of this stage you will be able to:
 ### 1. Intentional laboratory entry points
 
 | Target type | Typical laboratory use |
-|-------------|------------------------|
+|--------------|-------------------------|
 | OWASP Juice Shop / DVWA / WebGoat | Web initial access (auth bypass, injection, etc.) already studied in Track 1 |
 | Metasploitable or similar | Network-service initial access on an intentionally vulnerable host |
 | Custom vulnerable app you control | Controlled, reproducible foothold |

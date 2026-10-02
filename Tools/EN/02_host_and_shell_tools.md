@@ -7,7 +7,7 @@ Used in **Phase-2 Stages 2–3** and Phase-3 Tracks 2, 3, and 5.
 ## Bash
 
 | | |
-|--|--|
+|---|---|
 | **What it is** | Default shell on most Linux lab VMs |
 | **Used for** | Running commands, pipelines, small inspection scripts |
 
@@ -34,7 +34,7 @@ grep -i fail /var/log/auth.log | tail
 ## ss / netstat
 
 | | |
-|--|--|
+|---|---|
 | **What they are** | Socket statistics (ss is modern; netstat is legacy) |
 | **Used for** | Listing listening ports and connections on a lab host |
 
@@ -50,7 +50,7 @@ ss -tan            # all TCP, numeric
 ## ps, top / htop
 
 | | |
-|--|--|
+|---|---|
 | **What they are** | Process listing and live process monitors |
 | **Used for** | Seeing what runs on a lab host; spotting unexpected processes in exercises |
 
@@ -65,7 +65,7 @@ ps aux --sort=-%mem | head -n 15
 ## ip / ifconfig
 
 | | |
-|--|--|
+|---|---|
 | **What they are** | Interface and address configuration viewers |
 | **Used for** | Confirming lab IP addresses and interfaces before scans/captures |
 
@@ -81,7 +81,7 @@ ip route
 ## journalctl / auth.log
 
 | | |
-|--|--|
+|---|---|
 | **What they are** | systemd journal viewer; classic auth log files |
 | **Used for** | Investigating logons and service messages on lab Linux VMs |
 
@@ -99,7 +99,7 @@ grep -iE 'failed|invalid' /var/log/auth.log | tail -n 20
 ## grep, awk, tail, find
 
 | | |
-|--|--|
+|---|---|
 | **What they are** | Search and text-processing utilities |
 | **Used for** | Filtering logs and command output during lab investigations |
 
@@ -114,7 +114,7 @@ grep -i fail /var/log/auth.log | awk '{print $(NF-3)}' | sort | uniq -c | sort -
 ## PowerShell
 
 | | |
-|--|--|
+|---|---|
 | **What it is** | Primary shell and automation environment on modern Windows |
 | **Used for** | Host inspection, event queries, service/process inventory on **lab** Windows VMs |
 
@@ -149,7 +149,7 @@ Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 ## Get-NetTCPConnection / netstat (Windows)
 
 | | |
-|--|--|
+|---|---|
 | **Used for** | Mapping listening ports to PIDs on lab Windows hosts |
 
 **Example:** See `Get-ListeningPorts.ps1` above.
@@ -159,7 +159,7 @@ Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 ## Get-WinEvent / Get-EventLog
 
 | | |
-|--|--|
+|---|---|
 | **Used for** | Reading Security and other logs on lab Windows VMs |
 
 **Common IDs (lab study):** 4624 logon success, 4625 logon failure, 4688 process creation (if audited).

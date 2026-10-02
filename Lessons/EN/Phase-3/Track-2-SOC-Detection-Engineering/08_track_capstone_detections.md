@@ -73,7 +73,7 @@ For each detection provide:
 A table of alerts generated during the validation run:
 
 | Alert / Rule | Classification (TP/FP/BTP) | Key evidence | Decision / note |
-|--------------|----------------------------|--------------|-----------------|
+|---------------|-----------------------------|---------------|------------------|
 
 ### 5. Metrics and tuning summary
 

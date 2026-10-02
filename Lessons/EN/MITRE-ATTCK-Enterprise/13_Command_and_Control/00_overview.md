@@ -13,7 +13,7 @@ Command and Control consists of techniques that adversaries may use to communica
 ## Techniques in this Tactic (45 total)
 
 | ID | Name | Type |
-|----|------|------|
+|-----|-------|-------|
 | [T1001](T1001_Data_Obfuscation.md) | Data Obfuscation | Technique |
 | [T1001.001](T1001.001_Junk_Data.md) | Junk Data | Sub-technique |
 | [T1001.002](T1001.002_Steganography.md) | Steganography | Sub-technique |

@@ -22,7 +22,7 @@ Generated: {now}
 
 ## Timeline
 | Time (UTC) | Phase              | Action / Observation | Evidence |
-|------------|--------------------|----------------------|----------|
+|-------------|---------------------|-----------------------|-----------|
 | T+0        | Detection          |                      |          |
 | T+?        | Analysis           |                      |          |
 | T+?        | Containment        |                      |          |

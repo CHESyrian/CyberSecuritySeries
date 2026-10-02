@@ -72,7 +72,7 @@ Use the following outline. Expand each section with the concrete detail you gath
 Present findings in a table or consistently formatted subsections. For each finding include:
 
 | Field | Content |
-|-------|---------|
+|--------|----------|
 | Title | Short descriptive name |
 | Severity rationale | Why you rated it Critical / High / Medium / Low / Informational (impact + likelihood in the *lab* context) |
 | Description | What was observed, which stage technique was used |

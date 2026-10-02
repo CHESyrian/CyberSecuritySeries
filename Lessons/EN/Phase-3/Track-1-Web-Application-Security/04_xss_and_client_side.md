@@ -44,7 +44,7 @@ By the end of this stage you will be able to:
 ### 1. The three classic categories
 
 | Type | How the payload reaches the sink | Typical laboratory observation |
-|------|----------------------------------|--------------------------------|
+|-------|-----------------------------------|---------------------------------|
 | **Reflected** | Payload is returned in the immediate response to the request that contained it | Search box or error page echoes the input as HTML |
 | **Stored** (persistent) | Payload is saved by the application and later served to other users | Comment, profile field, or message is rendered without encoding |
 | **DOM-based** | Payload never needs to reach the server; client-side JavaScript reads an untrusted source (URL fragment, etc.) and writes it into the DOM unsafely | Page uses `innerHTML` or similar with data from `location.hash` |

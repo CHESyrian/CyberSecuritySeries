@@ -13,7 +13,7 @@ Lateral Movement consists of techniques that adversaries use to enter and contro
 ## Techniques in this Tactic (23 total)
 
 | ID | Name | Type |
-|----|------|------|
+|-----|-------|-------|
 | [T1021](T1021_Remote_Services.md) | Remote Services | Technique |
 | [T1021.001](T1021.001_Remote_Desktop_Protocol.md) | Remote Desktop Protocol | Sub-technique |
 | [T1021.002](T1021.002_SMB_Windows_Admin_Shares.md) | SMB/Windows Admin Shares | Sub-technique |

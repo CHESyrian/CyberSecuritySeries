@@ -58,7 +58,7 @@ By the end of this stage you will be able to:
 A concise table or list covering:
 
 | Control area | Status in this lab | Evidence / notes |
-|--------------|--------------------|------------------|
+|---------------|---------------------|-------------------|
 | Segmentation / zones | … | diagram reference |
 | Host hardening baselines | … | before/after ports or services |
 | Vulnerability cycle | … | last scan + top decisions |

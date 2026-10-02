@@ -13,7 +13,7 @@ Discovery consists of techniques an adversary may use to gain knowledge about th
 ## Techniques in this Tactic (49 total)
 
 | ID | Name | Type |
-|----|------|------|
+|-----|-------|-------|
 | [T1007](T1007_System_Service_Discovery.md) | System Service Discovery | Technique |
 | [T1010](T1010_Application_Window_Discovery.md) | Application Window Discovery | Technique |
 | [T1012](T1012_Query_Registry.md) | Query Registry | Technique |

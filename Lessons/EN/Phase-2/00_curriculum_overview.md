@@ -19,7 +19,7 @@ By the end of Phase-2 you will be able to:
 **How this phase is organized**
 
 | Stage | File | Focus |
-|-------|------|-------|
+|--------|-------|--------|
 | 0 | This file | Curriculum map, prerequisites, lab philosophy, and learning tips |
 | 1 | `01_lab_setup_and_safety.md` | Building a safe home lab, virtualization, legal & ethical rules |
 | 2 | `02_linux_for_security.md` | Intermediate Bash, process/network inspection, security-oriented scripting |

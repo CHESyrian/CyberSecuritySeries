@@ -13,7 +13,7 @@ Credential Access consists of techniques for stealing credentials like account n
 ## Techniques in this Tactic (67 total)
 
 | ID | Name | Type |
-|----|------|------|
+|-----|-------|-------|
 | [T1003](T1003_OS_Credential_Dumping.md) | OS Credential Dumping | Technique |
 | [T1003.001](T1003.001_LSASS_Memory.md) | LSASS Memory | Sub-technique |
 | [T1003.002](T1003.002_Security_Account_Manager.md) | Security Account Manager | Sub-technique |

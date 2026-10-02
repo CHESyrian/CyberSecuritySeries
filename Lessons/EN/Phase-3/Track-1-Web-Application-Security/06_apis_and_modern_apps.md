@@ -44,7 +44,7 @@ By the end of this stage you will be able to:
 ### 1. REST-style APIs in security context
 
 | Verb | Typical use | Security notes |
-|------|-------------|----------------|
+|-------|--------------|-----------------|
 | GET | Retrieve resource(s) | Should be free of side effects; watch for IDOR in path or query |
 | POST | Create resource | Body validation, mass-assignment, authentication required |
 | PUT / PATCH | Replace or update | Object-level authorization critical |

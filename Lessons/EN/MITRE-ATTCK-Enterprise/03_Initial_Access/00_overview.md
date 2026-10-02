@@ -22,7 +22,7 @@ Initial Access consists of techniques that use various entry vectors to gain an 
 ## Techniques in this Tactic (22 total)
 
 | ID | Name | Type |
-|----|------|------|
+|-----|-------|-------|
 | [T1078](T1078_Valid_Accounts.md) | Valid Accounts | Technique |
 | [T1078.001](T1078.001_Default_Accounts.md) | Default Accounts | Sub-technique |
 | [T1078.002](T1078.002_Domain_Accounts.md) | Domain Accounts | Sub-technique |

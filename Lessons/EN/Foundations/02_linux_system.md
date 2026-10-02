@@ -11,7 +11,7 @@ Linux organizes everything in a single hierarchical tree that starts at the root
 Important standard directories (conceptual map):
 
 | Path | Typical purpose |
-|------|-----------------|
+|-------|------------------|
 | `/` | Root of the entire filesystem |
 | `/home` | User personal directories |
 | `/etc` | System configuration files |

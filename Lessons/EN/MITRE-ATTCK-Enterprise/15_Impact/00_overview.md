@@ -13,7 +13,7 @@ Impact consists of techniques that adversaries use to disrupt availability or co
 ## Techniques in this Tactic (33 total)
 
 | ID | Name | Type |
-|----|------|------|
+|-----|-------|-------|
 | [T1485](T1485_Data_Destruction.md) | Data Destruction | Technique |
 | [T1485.001](T1485.001_Lifecycle-Triggered_Deletion.md) | Lifecycle-Triggered Deletion | Sub-technique |
 | [T1486](T1486_Data_Encrypted_for_Impact.md) | Data Encrypted for Impact | Technique |

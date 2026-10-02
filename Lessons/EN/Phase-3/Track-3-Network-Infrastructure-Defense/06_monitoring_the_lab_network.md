@@ -43,7 +43,7 @@ By the end of this stage you will be able to:
 A practical starting set for a small lab:
 
 | Signal category | Examples | Why it matters |
-|-----------------|----------|----------------|
+|------------------|-----------|-----------------|
 | Authentication | Failed/successful SSH, RDP, VPN, web logons | Brute force, credential use, remote-access abuse |
 | Network policy | Firewall denies, unexpected zone-crossing attempts | Segmentation violations, lateral movement attempts |
 | Host listeners & process | New listening ports, unusual process starts | Persistence, unauthorized services |

@@ -51,7 +51,7 @@ Translate the question into the fields available in your laboratory logs (timest
 ### 2. Correlation patterns useful in the lab
 
 | Pattern | Description | Laboratory example |
-|---------|-------------|--------------------|
+|----------|--------------|---------------------|
 | Sequence | Event A then Event B within a time window | ≥5 failures followed by a success from the same IP |
 | Aggregation | Count of events exceeding a threshold | 20 failed logons from one IP in 5 minutes |
 | Join across sources | Same key appears in two log types | Web 401s and subsequent process creation on the app server |

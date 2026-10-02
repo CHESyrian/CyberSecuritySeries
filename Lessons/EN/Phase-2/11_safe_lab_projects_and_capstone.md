@@ -129,7 +129,7 @@ Steps (outline):
 Reuse any helper under `Codes/Python/` and `Codes/Bash/` inside your capstone projects. Common combinations:
 
 | Project | Suggested scripts |
-|---------|-------------------|
+|----------|--------------------|
 | A — Inventory | `check_lab_ports.py`, `host_inspect.sh`, `safe_lab_nmap.sh` |
 | B — Recon → Detection | `safe_lab_nmap.sh`, `simple_detection_demo.py`, `tshark_quick_summary.sh` |
 | C — Web observation | `lab_http_observe.py` |
@@ -154,7 +154,7 @@ See `README.md (project root)` for the full map.
 
 ## Execution Log
 | Time | Action | Result / Observation |
-|------|--------|----------------------|
+|-------|---------|-----------------------|
 
 ## Findings
 - ...

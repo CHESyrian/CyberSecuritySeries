@@ -2,7 +2,7 @@
 
 ## Bash
 | | |
-|--|--|
+|---|---|
 | **الغرض** | تشغيل أوامر وفحص المضيف على Linux المختبري |
 
 ```bash
@@ -35,7 +35,7 @@ python3 Codes/Python/02_linux_security/parse_auth_failures.py /var/log/auth.log
 
 ## PowerShell
 | | |
-|--|--|
+|---|---|
 | **الغرض** | فحص مضيف Windows المختبري والأحداث والخدمات |
 
 ```powershell

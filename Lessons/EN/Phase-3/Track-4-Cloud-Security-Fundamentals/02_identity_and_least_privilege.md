@@ -46,7 +46,7 @@ In traditional data centers the network perimeter was the primary control. In cl
 ### 2. Standing privilege versus least privilege
 
 | Approach | Description | Laboratory risk |
-|----------|-------------|-----------------|
+|-----------|--------------|------------------|
 | Standing admin | Permanent administrator or root-equivalent credentials | Compromise of one key or password yields full control |
 | Least privilege | Only the permissions required for a specific task or role | Compromise is limited to the granted scope |
 | Just-in-time / short-lived | Temporary elevation or credentials that expire | Window of exposure is minimized |

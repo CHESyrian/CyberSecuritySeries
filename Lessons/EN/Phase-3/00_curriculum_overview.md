@@ -21,7 +21,7 @@ Every track: **authorized laboratory systems only**.
 ## How Phase-3 is organized
 
 | Component | Path |
-|-----------|------|
+|------------|-------|
 | This overview | `00_curriculum_overview.md` |
 | **Track 1 · Web Application Security** | `Track-1-Web-Application-Security/` |
 | **Track 2 · SOC / Detection Engineering** | `Track-2-SOC-Detection-Engineering/` |
@@ -36,7 +36,7 @@ Each folder contains a **fully detailed** `00_track_overview.md` (stages, safety
 ## Track directory map
 
 | Track | Specification | Overview file |
-|-------|---------------|---------------|
+|--------|----------------|----------------|
 | **Track 1** | Web Application Security | `Track-1-Web-Application-Security/00_track_overview.md` |
 | **Track 2** | SOC / Detection Engineering | `Track-2-SOC-Detection-Engineering/00_track_overview.md` |
 | **Track 3** | Network & Infrastructure Defense | `Track-3-Network-Infrastructure-Defense/00_track_overview.md` |
@@ -67,7 +67,7 @@ Lab RoE; intentional initial access; discovery/persistence *categories*; purple-
 ## Suggested combinations
 
 | Goal | Tracks |
-|------|--------|
+|-------|---------|
 | Web / AppSec | **Track 1** → sample of Track 2 |
 | SOC analyst | **Track 2** → sample of Track 3 |
 | Infrastructure defender | **Track 3** → sample of Track 2 |

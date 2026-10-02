@@ -44,7 +44,7 @@ By the end of this stage you will be able to:
 ### 1. What a baseline covers (laboratory focus)
 
 | Area | Linux examples | Windows examples |
-|------|----------------|------------------|
+|-------|-----------------|-------------------|
 | Listening services | Disable unused daemons; confirm with `ss -tulpn` | Stop/disable unnecessary services; `Get-NetTCPConnection` |
 | Local firewall | nftables / firewalld / ufw default-deny + explicit allows | Windows Firewall with advanced security |
 | Accounts & privileges | No passwordless sudo for routine work; remove unused accounts | Local admin limited; LAPS-style ideas conceptual only |
@@ -91,10 +91,10 @@ flowchart TD
 
 1. Snapshot the VM.
 2. Run an inventory:
-   ```bash
+```bash
    ss -tulpn
    systemctl list-units --type=service --state=running
-   ```
+```
 3. Identify services that are not required for the host’s laboratory role.
 4. Disable or mask them (`systemctl disable --now …` or equivalent).
 5. Tighten the local firewall to match the zone policy from Stage 3.1 (default-deny + explicit allows).
@@ -106,10 +106,10 @@ flowchart TD
 
 1. Snapshot.
 2. Inventory:
-   ```powershell
+```powershell
    Get-NetTCPConnection -State Listen
    Get-Service | Where-Object Status -eq 'Running'
-   ```
+```
 3. Stop and disable services that are not required.
 4. Review Windows Firewall rules; ensure they align with the zone policy.
 5. Re-verify listeners and laboratory connectivity.

@@ -42,7 +42,7 @@ You will spend most of your time in a terminal. Useful habits:
 Essential navigation and inspection commands:
 
 | Command | Purpose |
-|---------|---------|
+|----------|----------|
 | `pwd` | Print current directory |
 | `ls -la` | List files with details and hidden files |
 | `cd <dir>` | Change directory |
@@ -136,7 +136,7 @@ Logs are one of the primary sources of truth for both defenders and investigator
 Common locations on many distributions:
 
 | Path | Typical content |
-|------|-----------------|
+|-------|------------------|
 | `/var/log/syslog` or `/var/log/messages` | General system messages |
 | `/var/log/auth.log` or `/var/log/secure` | Authentication attempts |
 | `/var/log/kern.log` | Kernel messages |
@@ -170,7 +170,7 @@ Security work frequently involves filtering and summarizing text (logs, command 
 Essential tools:
 
 | Tool | Typical use |
-|------|-------------|
+|-------|--------------|
 | `grep` | Find lines matching a pattern |
 | `cut` | Extract columns by delimiter |
 | `awk` | More flexible column and pattern processing |
@@ -235,7 +235,7 @@ sudo -l             # see what you are allowed to run with sudo (if configured)
 ## Common Mistakes
 
 | Mistake | Consequence | Better practice |
-|---------|-------------|-----------------|
+|----------|--------------|------------------|
 | Running everything as root | Hides permission issues; increases blast radius of mistakes | Use a normal user + sudo only when needed |
 | Searching the entire filesystem with `find /` without limits | Can be slow and generate huge output | Narrow the starting path and add filters |
 | Ignoring the difference between LISTEN on `0.0.0.0` vs `127.0.0.1` | Misunderstands exposure | Always note the bind address |
@@ -259,7 +259,7 @@ sudo -l             # see what you are allowed to run with sudo (if configured)
 ## Practical code (Codes/)
 
 | Script | Purpose |
-|--------|---------|
+|---------|----------|
 | `Codes/Bash/02_linux_security/host_inspect.sh` | Identity, listening sockets, top processes, recent auth lines |
 | `Codes/Bash/02_linux_security/failed_logons_summary.sh` | Summarize failed auth attempts by source IP |
 | `Codes/Python/02_linux_security/parse_auth_failures.py` | Parse a local auth log and rank failure sources |

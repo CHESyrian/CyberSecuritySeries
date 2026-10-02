@@ -85,7 +85,7 @@ tshark -r lab_capture.pcap -Y "dns"
 Wireshark/tshark display filters let you hide noise and keep signal.
 
 | Filter | Meaning |
-|--------|---------|
+|---------|----------|
 | `dns` | DNS traffic |
 | `http` | HTTP traffic |
 | `tcp.port == 80` | TCP port 80 |
@@ -206,7 +206,7 @@ This correlation is a core technique for both incident response and authorized t
 ## Common Mistakes
 
 | Mistake | Consequence | Better practice |
-|---------|-------------|-----------------|
+|----------|--------------|------------------|
 | Capturing on the wrong interface | Empty or irrelevant PCAP | Confirm interface with `ip addr` / `tshark -D` first |
 | Capturing without a filter on a busy network | Huge files, hard to analyze | Start with a capture filter when possible |
 | Injecting crafted packets outside the lab | Legal and operational risk | Restrict destinations to lab IPs only |
@@ -231,7 +231,7 @@ This correlation is a core technique for both incident response and authorized t
 ## Practical code (Codes/)
 
 | Script | Purpose |
-|--------|---------|
+|---------|----------|
 | `Codes/Python/04_network_analysis/` | Full Scapy / socket suite (sniff, PCAP read, send, scan demos) |
 | `Codes/Bash/04_network_analysis/tshark_quick_summary.sh` | Quick protocol hierarchy + packet summary for a PCAP |
 

@@ -100,7 +100,7 @@ The report is the primary deliverable. A test that discovers important issues bu
 ## Different Types of Tests (Conceptual Spectrum)
 
 | Type | Knowledge Given to Testers | Typical Use |
-|------|---------------------------|-------------|
+|-------|----------------------------|--------------|
 | Black-box | Almost none | Simulates an external attacker with little prior knowledge |
 | Grey-box | Partial information (e.g., some credentials or architecture diagrams) | Balanced realism and efficiency |
 | White-box | Extensive information (source code, diagrams, credentials) | Thorough coverage, often used for applications |

@@ -17,7 +17,7 @@ Answering that question requires two related ideas: **identity** and **access co
 Common ways to authenticate (often used in combination):
 
 | Factor Type | Examples | Everyday Analogy |
-|-------------|----------|------------------|
+|--------------|-----------|-------------------|
 | Something you **know** | Password, PIN, passphrase | Knowing the combination to a lock |
 | Something you **have** | Phone, hardware token, smart card | Possessing a physical key |
 | Something you **are** | Fingerprint, face, voice | Biometric recognition |

@@ -126,7 +126,7 @@ Get-WinEvent -FilterHashtable @{LogName='Security'; ID=4624} -MaxEvents 10
 Common security event IDs worth recognizing (conceptual awareness):
 
 | Event ID | Typical meaning |
-|----------|-----------------|
+|-----------|------------------|
 | 4624 | Successful logon |
 | 4625 | Failed logon |
 | 4672 | Special privileges assigned to new logon |
@@ -221,7 +221,7 @@ Good habits:
 ## Common Mistakes
 
 | Mistake | Risk | Better practice |
-|---------|------|-----------------|
+|----------|-------|------------------|
 | Always running PowerShell as Administrator | Unnecessary privilege; harder to see normal-user behavior | Elevate only when required |
 | Ignoring OwningProcess when looking at ports | Cannot tell which program is listening | Always map port → process |
 | Treating Event Logs as noise | Misses valuable signal | Learn a few high-value Event IDs first |
@@ -245,7 +245,7 @@ Good habits:
 ## Practical code (Codes/)
 
 | Script | Purpose |
-|--------|---------|
+|---------|----------|
 | `Codes/PowerShell/03_windows_security/Host-Inspect.ps1` | Identity, listening ports, top processes, Administrators group |
 | `Codes/PowerShell/03_windows_security/Get-ListeningPorts.ps1` | Map listening TCP ports to process name and path |
 | `Codes/PowerShell/03_windows_security/Get-SecurityEvents.ps1` | Newest Security log events (optional `-LogonOnly`) |

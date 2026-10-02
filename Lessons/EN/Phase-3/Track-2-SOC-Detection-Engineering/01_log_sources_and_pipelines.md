@@ -43,7 +43,7 @@ By the end of this stage you will be able to:
 ### 1. What should be logged (laboratory priority list)
 
 | Category | Linux examples | Windows examples | Why it matters for detection |
-|----------|----------------|------------------|------------------------------|
+|-----------|-----------------|-------------------|-------------------------------|
 | Authentication | `/var/log/auth.log`, `secure`, journal `sshd` | Security log (4624, 4625, 4648, …) | Failed/successful logons, brute force, lateral movement |
 | Process creation | `auditd` execve, optional Sysmon-like | Security 4688, Sysmon 1 | Suspicious binaries, living-off-the-land |
 | Web / application | Access and error logs (nginx, Apache, app-specific) | IIS logs, application event logs | Web attacks, recon, injection probes |

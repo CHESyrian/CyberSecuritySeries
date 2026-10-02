@@ -49,7 +49,7 @@ By the end of this stage you will be able to:
 ### 1. Vertical versus horizontal access control
 
 | Type | Description | Laboratory example |
-|------|-------------|--------------------|
+|-------|--------------|---------------------|
 | **Vertical** | A lower-privilege user reaches a higher-privilege function | Normal user can open `/admin` or call an admin-only API |
 | **Horizontal** | A user accesses another user’s resources at the same privilege level | User A views User B’s order by changing `orderId` |
 

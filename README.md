@@ -34,7 +34,7 @@ Bilingual (English + Arabic) progressive curriculum: absolute beginner → inter
 ## Curriculum phases
 
 | Phase | Path | Level | Focus |
-|-------|------|-------|--------|
+|--------|-------|--------|---------|
 | **0 · Foundations** | `Lessons/*/Foundations/` | Absolute beginner | Computer basics, Linux, Windows, networking, cyber basics, red/blue conceptual |
 | **1 · Conceptual** | `Lessons/*/Phase-1/` | Beginner | CIA, risk, networking, access control, crypto, attack surfaces, ethics, pentest methodology — **theory only** |
 | **2 · Practical** | `Lessons/*/Phase-2/` | Intermediate | Lab setup, host inspection, packets, authorized recon, vuln concepts, web, crypto practice, detection, IR, capstone |
@@ -45,7 +45,7 @@ Each phase overview includes a **self-check / review checklist**.
 ### Phase-3 track folders
 
 | Track | Folder |
-|-------|--------|
+|--------|---------|
 | 1 Web Application Security | `Track-1-Web-Application-Security/` |
 | 2 SOC / Detection Engineering | `Track-2-SOC-Detection-Engineering/` |
 | 3 Network & Infrastructure Defense | `Track-3-Network-Infrastructure-Defense/` |
@@ -59,7 +59,7 @@ Each phase overview includes a **self-check / review checklist**.
 ### Phase-2 (by stage)
 
 | Stage | Topic | Example paths |
-|-------|--------|----------------|
+|--------|---------|-----------------|
 | 1 | Lab setup | `Codes/Bash/01_lab_setup/`, `Codes/Python/01_lab_setup/` |
 | 2 | Linux | `Codes/Bash/02_linux_security/`, `Codes/Python/02_linux_security/` |
 | 3 | Windows | `Codes/PowerShell/03_windows_security/` |
@@ -70,7 +70,7 @@ Each phase overview includes a **self-check / review checklist**.
 ### Phase-3 (by track)
 
 | Track | Paths |
-|-------|--------|
+|--------|---------|
 | **1 Web** | `Codes/Python/Track-1-Web/` (headers, cookies, API GET, OWASP note categories), `Codes/Bash/Track-1-Web/` |
 | **2 SOC** | `Codes/Python/Track-2-SOC/` (threshold, triage, correlation, burst score), `Codes/Bash/Track-2-SOC/` |
 | **3 Infra** | `Codes/Bash/Track-3-Infra/baseline_ports_note.sh` |
@@ -88,7 +88,7 @@ python3 Codes/Python/Track-2-SOC/detection_threshold_demo.py
 ## Tools reference
 
 | Path | Content |
-|------|---------|
+|-------|----------|
 | `Tools/EN/00_tools_overview.md` | Index + safety |
 | `Tools/EN/01_packet_analysis_tools.md` | Wireshark, tshark, Scapy, tcpdump, ping |
 | `Tools/EN/02_host_and_shell_tools.md` | Bash, PowerShell, host inspection |
@@ -138,7 +138,7 @@ Prefer the language you learn in; the other remains available for reference.
 All five specialized tracks are fully expanded in **both English and Arabic**:
 
 | Track | Stages | Capstone |
-|-------|--------|----------|
+|--------|---------|-----------|
 | 1 Web Application Security | 01–08 | Track capstone report |
 | 2 SOC / Detection Engineering | 01–08 | Detection pack |
 | 3 Network & Infrastructure Defense | 01–07 | Defended lab |

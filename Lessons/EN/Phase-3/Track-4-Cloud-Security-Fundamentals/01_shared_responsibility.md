@@ -41,7 +41,7 @@ By the end of this stage you will be able to:
 ### 1. The three classic service models
 
 | Model | Provider typically manages | Customer typically manages |
-|-------|----------------------------|----------------------------|
+|--------|-----------------------------|-----------------------------|
 | **IaaS** (Infrastructure as a Service) | Physical hosts, hypervisor, network fabric, storage infrastructure | Guest OS, applications, identity & access inside the guest, network controls you configure, data |
 | **PaaS** (Platform as a Service) | OS, runtime, middleware, much of the platform patching | Application code, data, identity & access to the application, some configuration |
 | **SaaS** (Software as a Service) | Almost the entire stack including the application | Data classification, user access, some configuration options, endpoint devices that consume the service |

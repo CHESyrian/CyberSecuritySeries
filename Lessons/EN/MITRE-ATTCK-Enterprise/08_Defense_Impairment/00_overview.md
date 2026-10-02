@@ -21,7 +21,7 @@ Defense Impairment covers techniques that actively disable, modify, or degrade s
 ## Techniques in this Tactic (56 total)
 
 | ID | Name | Type |
-|----|------|------|
+|-----|-------|-------|
 | [T1112](T1112_Modify_Registry.md) | Modify Registry | Technique |
 | [T1207](T1207_Rogue_Domain_Controller.md) | Rogue Domain Controller | Technique |
 | [T1222](T1222_File_and_Directory_Permissions_Modification.md) | File and Directory Permissions Modification | Technique |

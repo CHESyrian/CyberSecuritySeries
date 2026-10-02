@@ -24,7 +24,7 @@ Learners who finished Phase-2 and want to think like an infrastructure defender:
 ## Track organization
 
 | Stage | File | Focus |
-|-------|------|-------|
+|--------|-------|--------|
 | 0 | This file | Track map, outcomes, safety |
 | 3.1 | `01_segmentation_and_policy.md` | Zones, trust boundaries, allow-lists |
 | 3.2 | `02_host_hardening_baselines.md` | Linux/Windows baseline controls (lab) |
@@ -39,7 +39,7 @@ Learners who finished Phase-2 and want to think like an infrastructure defender:
 ## Lab setup notes
 
 | Component | Role |
-|-----------|------|
+|------------|-------|
 | Gateway / firewall VM (optional) | Policy experiments |
 | Hardened “server” VM | Baseline practice |
 | Vulnerable target (isolated) | Contrast before/after controls |
@@ -86,7 +86,7 @@ Document a “defended lab”: diagram, control inventory, one verified hardenin
 ## Companion code
 
 | Area | Location |
-|------|----------|
+|-------|-----------|
 | Host inspect | `Codes/Bash/02_linux_security/`, `Codes/PowerShell/03_windows_security/` |
 | Safe lab Nmap | `Codes/Bash/05_reconnaissance/safe_lab_nmap.sh` |
 | Track 3 extensions | Baseline audit snippets under `Codes/` as stages are written |

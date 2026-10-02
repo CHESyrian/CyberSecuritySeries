@@ -42,7 +42,7 @@ By the end of this stage you will be able to:
 ### 1. IDS versus IPS
 
 | Mode | Action on match | Typical laboratory use |
-|------|-----------------|------------------------|
+|-------|------------------|-------------------------|
 | **IDS** | Generate alert / log | Learning, tuning, validation of detections |
 | **IPS** | Alert and drop / reject / reset | Demonstrating prevention; requires careful testing so laboratory workflows are not broken |
 

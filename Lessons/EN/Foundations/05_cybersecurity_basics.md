@@ -78,7 +78,7 @@ A fundamental browser security rule: a web page can only freely interact with re
 These are categories of weaknesses frequently discussed in application security. Descriptions stay high-level; no exploitation steps are provided.
 
 | Class | Core idea |
-|-------|-----------|
+|--------|------------|
 | **SQL Injection** | Untrusted input is interpreted as part of a database query. |
 | **XSS (Cross-Site Scripting)** | Untrusted input is rendered as active content in a victim’s browser. |
 | **CSRF** | Victim’s browser is tricked into making an unwanted authenticated request. |

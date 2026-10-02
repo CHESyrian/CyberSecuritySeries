@@ -7,7 +7,7 @@ Used in **Phase-2 Stages 7–8** and **Phase-3 Track 1**.
 ## openssl
 
 | | |
-|--|--|
+|---|---|
 | **What it is** | Toolkit for TLS/SSL, certificates, and related crypto operations |
 | **Used for** | Inspecting X.509 certificates; viewing what a TLS service presents |
 
@@ -36,7 +36,7 @@ echo | openssl s_client -connect 192.168.56.10:443 -servername lab.local 2>/dev/
 ## sha256sum (and related)
 
 | | |
-|--|--|
+|---|---|
 | **What it is** | File hashing utility on Linux |
 | **Used for** | Integrity checks — detect unexpected file changes in lab exercises |
 
@@ -55,7 +55,7 @@ Prefer SHA-256 (or stronger) for security-sensitive checks; MD5/SHA-1 are legacy
 ## Python hashlib
 
 | | |
-|--|--|
+|---|---|
 | **What it is** | Standard library module for cryptographic hashes |
 | **Used for** | Same integrity idea inside scripts |
 
@@ -71,7 +71,7 @@ python3 Codes/Python/08_cryptography/hash_file.py /path/to/file -a sha512
 ## Browser Developer Tools
 
 | | |
-|--|--|
+|---|---|
 | **What they are** | Built-in browser panels (Network, Application/Storage, Console) |
 | **Used for** | Observing requests, cookies, redirects, and storage for **lab web apps** |
 
@@ -86,7 +86,7 @@ python3 Codes/Python/08_cryptography/hash_file.py /path/to/file -a sha512
 ## OWASP ZAP / Burp Suite Community
 
 | | |
-|--|--|
+|---|---|
 | **What they are** | Intercepting HTTP(S) proxies for security testing |
 | **Used for** | Mapping and manually inspecting traffic to **intentional lab applications only** |
 
@@ -106,7 +106,7 @@ python3 Codes/Python/08_cryptography/hash_file.py /path/to/file -a sha512
 ## lab_http_observe.py / check_security_headers.py
 
 | | |
-|--|--|
+|---|---|
 | **What they are** | Project Python helpers |
 | **Used for** | Printing status/headers or security-related headers from a lab URL |
 
@@ -124,20 +124,20 @@ python3 Codes/Python/Track-1-Web/check_security_headers.py http://192.168.56.10/
 
 1. Open lab app; DevTools → Network; log in; save cookie flags.
 2. Headers:
-   ```bash
-   ./Codes/Bash/Track-1-Web/lab_curl_headers.sh http://192.168.56.10/
-   python3 Codes/Python/Track-1-Web/check_security_headers.py http://192.168.56.10/
-   python3 Codes/Python/Track-1-Web/cookie_flags_note.py
-   ```
+```bash
+./Codes/Bash/Track-1-Web/lab_curl_headers.sh http://192.168.56.10/
+python3 Codes/Python/Track-1-Web/check_security_headers.py http://192.168.56.10/
+python3 Codes/Python/Track-1-Web/cookie_flags_note.py
+```
 3. Optional API peek (lab only):
-   ```bash
-   python3 Codes/Python/Track-1-Web/lab_api_get.py http://192.168.56.10/api/example
-   ```
+```bash
+python3 Codes/Python/Track-1-Web/lab_api_get.py http://192.168.56.10/api/example
+```
 4. Hash a lab evidence file:
-   ```bash
-   python3 Codes/Python/08_cryptography/hash_file.py ./notes.txt
-   ./Codes/Bash/08_cryptography/hash_and_cert_check.sh hash ./notes.txt
-   ```
+```bash
+python3 Codes/Python/08_cryptography/hash_file.py ./notes.txt
+./Codes/Bash/08_cryptography/hash_and_cert_check.sh hash ./notes.txt
+```
 
 **Common mistakes**
 - Pointing Burp/ZAP at the whole Internet proxy without scope.

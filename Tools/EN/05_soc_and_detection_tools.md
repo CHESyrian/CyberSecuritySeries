@@ -7,7 +7,7 @@ Used in **Phase-2 Stages 9–10** and **Phase-3 Track 2** (and Track 5 purple-te
 ## Linux authentication logs / journalctl
 
 | | |
-|--|--|
+|---|---|
 | **What they are** | Local records of logons and service messages |
 | **Used for** | Detecting failed logons and tracing activity on lab Linux VMs |
 
@@ -27,7 +27,7 @@ journalctl -u ssh -n 50 --no-pager
 ## Windows Security log (Get-WinEvent)
 
 | | |
-|--|--|
+|---|---|
 | **What it is** | Windows event channel for security-relevant events |
 | **Used for** | Lab investigation of logon success/failure and related events |
 
@@ -43,7 +43,7 @@ Get-WinEvent -FilterHashtable @{LogName='Security'; Id=4624,4625} -MaxEvents 20
 ## Lab SIEM (Wazuh, Security Onion lite, ELK-style stacks)
 
 | | |
-|--|--|
+|---|---|
 | **What it is** | Searchable, centralized view of logs and simple alerts |
 | **Used for** | Practicing search, correlation, and detection design in a **self-hosted lab** |
 
@@ -61,7 +61,7 @@ Get-WinEvent -FilterHashtable @{LogName='Security'; Id=4624,4625} -MaxEvents 20
 ## Project detection helpers
 
 | Tool / script | Used for |
-|---------------|----------|
+|----------------|-----------|
 | `Codes/Python/09_logging_detection/simple_detection_demo.py` | Threshold alerts from a log file |
 | `Codes/Python/Track-2-SOC/detection_threshold_demo.py` | Offline teaching demo of threshold logic |
 | `Codes/Python/02_linux_security/parse_auth_failures.py` | Rank failure sources in a log |
@@ -84,22 +84,22 @@ python3 Codes/Python/Track-2-SOC/detection_threshold_demo.py
 
 1. Generate a few failed logons against a **lab** SSH/RDP service only.
 2. Count and rank:
-   ```bash
-   ./Codes/Bash/Track-2-SOC/count_auth_failures.sh /var/log/auth.log
-   python3 Codes/Python/09_logging_detection/simple_detection_demo.py /var/log/auth.log -t 3
-   ```
+```bash
+./Codes/Bash/Track-2-SOC/count_auth_failures.sh /var/log/auth.log
+python3 Codes/Python/09_logging_detection/simple_detection_demo.py /var/log/auth.log -t 3
+```
 3. Teaching correlation demo:
-   ```bash
-   python3 Codes/Python/Track-2-SOC/correlate_failed_then_success.py
-   ```
+```bash
+python3 Codes/Python/Track-2-SOC/correlate_failed_then_success.py
+```
 4. Fill triage notes:
-   ```bash
-   python3 Codes/Python/Track-2-SOC/triage_template.py
-   ```
+```bash
+python3 Codes/Python/Track-2-SOC/triage_template.py
+```
 5. After a tabletop incident, collect basic evidence:
-   ```bash
-   ./Codes/Bash/10_incident_response/collect_basic_evidence.sh
-   ```
+```bash
+./Codes/Bash/10_incident_response/collect_basic_evidence.sh
+```
 
 **Common mistakes**
 - Alerting on every log line (no threshold or context).

@@ -7,7 +7,7 @@ Technical knowledge alone is not enough. Security work that involves probing sys
 ## The Core Distinction
 
 | Activity | Authorization | Legal Status (general principle) |
-|----------|---------------|----------------------------------|
+|-----------|----------------|-----------------------------------|
 | Testing systems you own or have explicit written permission to test | Present | Generally legal and professional |
 | Testing systems without permission | Absent | Generally illegal |
 

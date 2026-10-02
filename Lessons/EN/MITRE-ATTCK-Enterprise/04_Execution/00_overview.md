@@ -23,7 +23,7 @@ Execution consists of techniques that result in adversary-controlled code runnin
 ## Techniques in this Tactic (64 total)
 
 | ID | Name | Type |
-|----|------|------|
+|-----|-------|-------|
 | [T1047](T1047_Windows_Management_Instrumentation.md) | Windows Management Instrumentation | Technique |
 | [T1053](T1053_Scheduled_Task_Job.md) | Scheduled Task/Job | Technique |
 | [T1053.002](T1053.002_At.md) | At | Sub-technique |

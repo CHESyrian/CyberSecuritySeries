@@ -13,7 +13,7 @@ Exfiltration consists of techniques that adversaries may use to steal data from 
 ## Techniques in this Tactic (19 total)
 
 | ID | Name | Type |
-|----|------|------|
+|-----|-------|-------|
 | [T1011](T1011_Exfiltration_Over_Other_Network_Medium.md) | Exfiltration Over Other Network Medium | Technique |
 | [T1011.001](T1011.001_Exfiltration_Over_Bluetooth.md) | Exfiltration Over Bluetooth | Sub-technique |
 | [T1020](T1020_Automated_Exfiltration.md) | Automated Exfiltration | Technique |

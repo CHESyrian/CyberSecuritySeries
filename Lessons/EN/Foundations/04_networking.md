@@ -19,7 +19,7 @@ graph TD
 ```
 
 | Layer | Name | Simple job |
-|-------|------|------------|
+|--------|-------|-------------|
 | 7 | Application | What the user or program sees (HTTP, DNS, etc.) |
 | 6 | Presentation | Data formatting, encryption (TLS often sits here conceptually) |
 | 5 | Session | Managing conversations |
@@ -89,7 +89,7 @@ It greatly simplifies administration but also means a malicious DHCP server can 
 **Transport-layer protocols**:
 
 | Protocol | Characteristics | Typical use |
-|----------|------------------|-------------|
+|-----------|-------------------|--------------|
 | **TCP** | Connection-oriented, reliable, ordered, has handshakes and acknowledgements | Web, email, file transfer, most applications that need reliability |
 | **UDP** | Connectionless, unreliable, low overhead | Video/audio streaming, DNS queries, gaming, anything that prefers speed over perfect delivery |
 

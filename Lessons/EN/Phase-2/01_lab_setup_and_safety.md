@@ -54,7 +54,7 @@ The key idea: the attacker machine can talk to the target machines, but neither 
 You do not need expensive hardware. A modern laptop with 16 GB of RAM (8 GB minimum) and a decent amount of free disk space is enough to start.
 
 | Component | Recommended choice | Purpose |
-|-----------|--------------------|---------|
+|------------|---------------------|----------|
 | **Hypervisor** | VirtualBox (free) or VMware Workstation Player | Runs the virtual machines |
 | **Attacker machine** | Kali Linux (or Parrot Security OS) | Contains the tools you will learn |
 | **Target machines** | Metasploitable 2/3, DVWA, OWASP Juice Shop, or similar intentionally vulnerable VMs | Safe systems designed to be probed and tested |
@@ -104,7 +104,7 @@ By default many hypervisors give virtual machines access to the same network as 
 Recommended simple configuration:
 
 | Adapter | Type | Purpose |
-|---------|------|---------|
+|----------|-------|----------|
 | Adapter 1 (Attacker) | NAT or NAT Network | Allows the attacker VM to download updates and tools |
 | Adapter 2 (Attacker) | Host-Only or Internal Network | Private network shared only with the target VMs |
 | Target VMs | Host-Only or Internal Network (same as Adapter 2) | Can be reached by the attacker, cannot reach the internet |
@@ -174,7 +174,7 @@ This notebook becomes valuable when you later write reports or prepare for certi
 ## Common Mistakes to Avoid
 
 | Mistake | Why it is dangerous | Better approach |
-|---------|---------------------|-----------------|
+|----------|----------------------|------------------|
 | Connecting vulnerable targets to the internet | Real attackers can find and compromise them | Keep targets on host-only / internal networks |
 | Scanning your home router or ISP equipment | May violate terms of service or local law | Restrict all active testing to lab VMs |
 | Skipping snapshots | One mistake can force a full reinstall | Snapshot before every major change |
@@ -199,7 +199,7 @@ This notebook becomes valuable when you later write reports or prepare for certi
 ## Practical code (Codes/)
 
 | Script | Purpose |
-|--------|---------|
+|---------|----------|
 | `Codes/Bash/01_lab_setup/lab_snapshot_reminder.sh` | Print the pre-change safety checklist |
 | `Codes/Bash/01_lab_setup/check_lab_connectivity.sh` | Ping + quick TCP probes to a lab IP |
 | `Codes/Python/01_lab_setup/check_lab_ports.py` | Check common ports on a lab target |

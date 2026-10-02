@@ -48,7 +48,7 @@ Logging does not stop attacks by itself. It enables detection, investigation, an
 ### Linux (recap and expansion)
 
 | Source | Typical content |
-|--------|-----------------|
+|---------|------------------|
 | `/var/log/auth.log` or `/var/log/secure` | Authentication and privilege events |
 | `/var/log/syslog` / `/var/log/messages` | General system messages |
 | `journalctl` | systemd journal (many modern distributions) |
@@ -58,7 +58,7 @@ Logging does not stop attacks by itself. It enables detection, investigation, an
 ### Windows (recap and expansion)
 
 | Source | Typical content |
-|--------|-----------------|
+|---------|------------------|
 | Security log | Logons, account changes, privilege use, process creation (when enabled) |
 | System log | Service starts/stops, driver and hardware events |
 | Application log | Application-specific events |
@@ -94,7 +94,7 @@ Detection starts with questions such as:
 Basic patterns worth practicing in the lab:
 
 | Pattern | Example lab observation |
-|---------|-------------------------|
+|----------|--------------------------|
 | Brute-force style logons | Many failed authentications from one source in a short time |
 | New or unusual process | A process name or path you have never seen on that host |
 | Unexpected network connection | A lab host connecting to an address that is not part of normal lab activity |
@@ -133,7 +133,7 @@ Thinking from both sides (how an activity looks when performed, and how it looks
 ## Common Mistakes
 
 | Mistake | Consequence | Better practice |
-|---------|-------------|-----------------|
+|----------|--------------|------------------|
 | Collecting logs but never reviewing them | Detection capability exists only on paper | Practice regular review even in the lab |
 | Alerting on everything | Alert fatigue; real issues are missed | Start with high-signal patterns |
 | Ignoring time synchronization | Correlating events across hosts becomes unreliable | Keep lab VMs reasonably in sync |
@@ -157,7 +157,7 @@ Thinking from both sides (how an activity looks when performed, and how it looks
 ## Practical code (Codes/)
 
 | Script | Purpose |
-|--------|---------|
+|---------|----------|
 | `Codes/Bash/09_logging_detection/auth_failure_watch.sh` | Follow auth log and highlight failure/accepted lines |
 | `Codes/Bash/02_linux_security/failed_logons_summary.sh` | Count failure sources from a static log |
 | `Codes/Python/09_logging_detection/simple_detection_demo.py` | Flag IPs that exceed a failure threshold |

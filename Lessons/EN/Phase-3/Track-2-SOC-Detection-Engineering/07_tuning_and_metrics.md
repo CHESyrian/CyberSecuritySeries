@@ -45,7 +45,7 @@ Without before/after numbers it is impossible to know whether a change helped. E
 ### 2. Tuning levers
 
 | Lever | Example laboratory use |
-|-------|------------------------|
+|--------|-------------------------|
 | Threshold | Raise from 5 to 15 failures in 5 minutes |
 | Time window | Shorten or lengthen the correlation window |
 | Inclusion / exclusion | Ignore a known laboratory scanner IP or account |

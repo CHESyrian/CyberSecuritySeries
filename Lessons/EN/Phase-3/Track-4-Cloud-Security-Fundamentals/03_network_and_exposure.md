@@ -52,7 +52,7 @@ Typical mechanisms:
 ### 2. Administrative-exposure anti-patterns
 
 | Anti-pattern | Risk | Laboratory observation |
-|--------------|------|------------------------|
+|---------------|-------|-------------------------|
 | SSH/RDP open to the world | Credential attacks, unpatched service exploits | Port 22/3389 reachable from outside the lab |
 | Database port public | Data exfiltration, ransomware | 3306/5432/1433 open to 0.0.0.0/0 |
 | Storage bucket public | Data leakage | Object-storage ACL or policy grants public read/write |

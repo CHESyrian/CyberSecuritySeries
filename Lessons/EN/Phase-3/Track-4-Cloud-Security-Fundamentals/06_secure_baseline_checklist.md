@@ -45,7 +45,7 @@ By the end of this stage you will be able to:
 ### 2. Minimal checklist categories
 
 | Category | Key questions (laboratory scale) |
-|----------|----------------------------------|
+|-----------|-----------------------------------|
 | **Identity** | Are standing admin credentials minimized? Are unused access keys removed? Is MFA enabled on human identities where supported? |
 | **Network / Exposure** | Are administrative ports closed to the world? Are security-group rules least-privilege? Are public endpoints intentional and documented? |
 | **Storage / Data** | Are buckets/containers private by default? Is public access blocked? Is encryption at rest enabled where available? |

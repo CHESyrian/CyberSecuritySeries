@@ -85,7 +85,7 @@ If `userInput` contains shell metacharacters (`;`, `|`, `&&`, backticks, etc.), 
 ### 4. Impact categories you will observe in the lab
 
 | Category | Example laboratory observation |
-|----------|--------------------------------|
+|-----------|---------------------------------|
 | Authentication bypass | Login succeeds without valid credentials |
 | Data disclosure | Extra rows or columns appear in results |
 | Data modification | Records can be updated or deleted outside intended flow |

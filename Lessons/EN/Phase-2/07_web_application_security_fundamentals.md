@@ -54,7 +54,7 @@ The OWASP Top 10 is a widely recognized awareness document that lists the most c
 Core themes you should understand:
 
 | Theme | Plain-language idea |
-|-------|---------------------|
+|--------|----------------------|
 | **Injection** | Untrusted data is interpreted as commands or queries (SQL, OS, LDAP, etc.) |
 | **Broken Access Control** | Users can act outside their intended permissions |
 | **Cryptographic Failures** | Sensitive data is not properly protected in transit or at rest |
@@ -131,7 +131,7 @@ Examples visible in labs:
 ## Common Mistakes
 
 | Mistake | Risk | Better practice |
-|---------|------|-----------------|
+|----------|-------|------------------|
 | Testing a real public website | Legal consequences | Lab applications only |
 | Confusing “I saw a strange response” with “I have a confirmed exploit” | Overstated findings | Document observation vs verified impact separately |
 | Ignoring HTTPS and certificate issues in the lab | Missed learning | Note transport security even in training environments |
@@ -155,7 +155,7 @@ Examples visible in labs:
 ## Practical code (Codes/)
 
 | Script | Purpose |
-|--------|---------|
+|---------|----------|
 | `Codes/Python/07_web/lab_http_observe.py` | Fetch a lab URL and print status, headers, and a short body preview |
 
 ```bash

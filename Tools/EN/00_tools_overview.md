@@ -4,7 +4,7 @@ This folder documents **tools by name**: what each is for, a short explanation, 
 Executable helpers live under top-level `Codes/`. Active use is limited to systems you own or control in an isolated laboratory.
 
 | Phase | How tools appear |
-|-------|------------------|
+|--------|-------------------|
 | Phase-0 / Phase-1 | Named and explained; no attack recipes against real systems |
 | Phase-2 / Phase-3 | Hands-on in the lab + companion scripts |
 
@@ -13,7 +13,7 @@ Executable helpers live under top-level `Codes/`. Active use is limited to syste
 ## Index of tool guides
 
 | File | Tools covered |
-|------|----------------|
+|-------|-----------------|
 | `01_packet_analysis_tools.md` | Wireshark, tshark, Scapy, tcpdump, ping |
 | `02_host_and_shell_tools.md` | Bash, ss, ps, ip, journalctl, grep; PowerShell, Get-NetTCPConnection, Get-Process, Get-WinEvent |
 | `03_recon_and_scan_tools.md` | Nmap, ping, Python socket helpers |

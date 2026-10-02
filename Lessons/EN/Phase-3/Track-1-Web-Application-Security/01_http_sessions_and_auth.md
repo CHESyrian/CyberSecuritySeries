@@ -52,7 +52,7 @@ All practice below assumes these constraints. If the target is outside your lab,
 A client (usually a browser) sends a request; the server returns a response. The fundamental elements are:
 
 | Element | Request | Response |
-|---------|---------|----------|
+|----------|----------|-----------|
 | Start line | Method + path + HTTP version | Status code + reason + HTTP version |
 | Headers | Host, User-Agent, Cookie, Authorization, Content-Type, … | Set-Cookie, Content-Type, Location, Cache-Control, security headers, … |
 | Body | Optional (POST/PUT form data or JSON) | Optional (HTML, JSON, binary) |
@@ -103,7 +103,7 @@ If an attacker obtains a valid session ID, the server treats the attacker as the
 A cookie is a small piece of data the server asks the browser to store and re-send. The most important security attributes are:
 
 | Attribute | Purpose | Risk if missing |
-|-----------|---------|-----------------|
+|------------|----------|------------------|
 | `Secure` | Cookie is sent only over HTTPS | Session ID can travel in cleartext |
 | `HttpOnly` | Cookie is inaccessible to JavaScript | XSS can steal the session ID |
 | `SameSite` | Restricts when the cookie is sent on cross-site requests (`Strict`, `Lax`, or `None`) | CSRF becomes easier |
@@ -116,7 +116,7 @@ Modern applications should set `Secure; HttpOnly; SameSite=Lax` (or `Strict`) on
 ### 4. Authentication patterns (high level)
 
 | Pattern | How it works | Typical risks |
-|---------|--------------|---------------|
+|----------|---------------|----------------|
 | **HTTP Basic** | Credentials base64-encoded in every request | Credentials always in transit; no logout without browser close; rarely used alone today |
 | **Form + server session** | POST credentials → server issues session cookie | Session fixation, weak session IDs, missing logout invalidation |
 | **Token-based (Bearer / JWT-style)** | After login the client receives a token and sends it in `Authorization` or a cookie | Token theft, missing expiration, insufficient signature verification, storage in localStorage (XSS risk) |

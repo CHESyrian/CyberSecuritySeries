@@ -78,7 +78,7 @@ This phase highlights the importance of network segmentation, credential hygiene
 Red Team and penetration-testing work commonly draws on categories of tools rather than any single product. At a conceptual level the most frequently referenced categories are:
 
 | Category | Typical purpose |
-|----------|-----------------|
+|-----------|------------------|
 | **Network scanners** | Discover live hosts and services |
 | **Vulnerability scanners** | Identify known weaknesses at scale |
 | **Exploitation frameworks** | Organize and demonstrate impact of findings (used under strict authorization) |

@@ -29,7 +29,7 @@ A simple formula often used conceptually is:
 A threat is anything that could cause damage. Threats can be:
 
 | Category | Examples |
-|----------|----------|
+|-----------|-----------|
 | **Human (malicious)** | Cybercriminals, insider employees acting with bad intent, nation-state actors |
 | **Human (accidental)** | Someone clicking a bad link, misconfiguring a system, losing a laptop |
 | **Technical** | Software bugs, hardware failures, power outages |

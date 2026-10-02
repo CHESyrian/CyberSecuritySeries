@@ -26,7 +26,7 @@ Learners who finished Phase-2 and want depth in how web applications are built, 
 ## Track organization
 
 | Stage | File | Focus |
-|-------|------|-------|
+|--------|-------|--------|
 | 0 | This file | Track map, outcomes, safety, lab targets |
 | 1.1 | `01_http_sessions_and_auth.md` | HTTP methods, headers, cookies, sessions, auth flows |
 | 1.2 | `02_mapping_and_proxy_workflow.md` | Spider/map, intercept, repeater-style workflow (lab) |
@@ -44,7 +44,7 @@ Learners who finished Phase-2 and want depth in how web applications are built, 
 Use applications **designed for training**, hosted in your isolated lab:
 
 | Target | Typical use in this track |
-|--------|---------------------------|
+|---------|----------------------------|
 | **OWASP Juice Shop** | Modern app, rich finding surface, good for mapping + report |
 | **DVWA** | Classic deliberate vulnerabilities, good for injection/XSS drills |
 | **WebGoat** / similar | Guided lessons aligned to issue classes |
@@ -107,7 +107,7 @@ End-to-end assessment of **one** lab application: scope, methodology, findings (
 ## Companion code (planned / existing)
 
 | Area | Location |
-|------|----------|
+|-------|-----------|
 | HTTP observe (Phase-2) | `Codes/Python/07_web/lab_http_observe.py` |
 | Track 1 extensions | `Codes/Python/` stage folders as 1.1–1.8 are written (e.g. header checker, simple lab API client) |
 | Tool notes | `Tools/EN/04_crypto_and_web_tools.md` and future Track 1 tool pages |

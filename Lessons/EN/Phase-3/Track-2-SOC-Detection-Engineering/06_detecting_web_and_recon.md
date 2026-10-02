@@ -43,7 +43,7 @@ By the end of this stage you will be able to:
 ### 1. Observable signals of laboratory recon
 
 | Activity | Typical laboratory signals |
-|----------|----------------------------|
+|-----------|-----------------------------|
 | Port scan | Multiple connection attempts to closed or filtered ports from one source; firewall denies; `nmap`-style timing |
 | Service enumeration | Connection then quick disconnect, or protocol-specific probes |
 | Web path discovery | High volume of 404 responses, sequential or wordlist-like paths |

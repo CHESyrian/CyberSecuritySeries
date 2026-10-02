@@ -21,7 +21,7 @@ Persistence consists of techniques that adversaries use to keep access to system
 ## Techniques in this Tactic (113 total)
 
 | ID | Name | Type |
-|----|------|------|
+|-----|-------|-------|
 | [T1037](T1037_Boot_or_Logon_Initialization_Scripts.md) | Boot or Logon Initialization Scripts | Technique |
 | [T1037.001](T1037.001_Logon_Script__Windows.md) | Logon Script (Windows) | Sub-technique |
 | [T1037.002](T1037.002_Login_Hook.md) | Login Hook | Sub-technique |

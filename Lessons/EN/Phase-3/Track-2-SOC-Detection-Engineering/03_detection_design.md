@@ -51,7 +51,7 @@ Example:
 ### 2. Pattern types
 
 | Pattern | When to use | Laboratory example |
-|---------|-------------|--------------------|
+|----------|--------------|---------------------|
 | **Threshold / aggregation** | Volume of similar events | ≥15 failed logons from one IP in 5 min |
 | **Sequence** | Ordered events | Failures followed by success from same IP within 10 min |
 | **Presence** | Rare or forbidden event | Use of a laboratory “canary” account |

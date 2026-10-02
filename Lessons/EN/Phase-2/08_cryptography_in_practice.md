@@ -124,7 +124,7 @@ Deep cryptanalysis is out of scope; configuration awareness is in scope.
 ## 5. Common Real-World Misconfigurations
 
 | Issue | Why it matters |
-|-------|----------------|
+|--------|-----------------|
 | Expired or not-yet-valid certificates | Clients reject the connection or users click through warnings |
 | Name mismatch (certificate does not cover the hostname) | Breaks authentication of the server identity |
 | Self-signed certificates in production | No trusted third-party attestation; easy to impersonate if users ignore warnings |
@@ -148,7 +148,7 @@ In the lab you can intentionally misconfigure a service (wrong certificate, expi
 ## Common Mistakes
 
 | Mistake | Consequence | Better practice |
-|---------|-------------|-----------------|
+|----------|--------------|------------------|
 | Treating “HTTPS is present” as “cryptography is done correctly” | Missed weak ciphers or invalid certificates | Inspect configuration and certificate details |
 | Using MD5 or SHA-1 for security-sensitive integrity checks | Collision risks | Prefer SHA-256 or stronger |
 | Ignoring certificate validity dates in lab experiments | Unrealistic mental model | Notice and document expiration behavior |
@@ -172,7 +172,7 @@ In the lab you can intentionally misconfigure a service (wrong certificate, expi
 ## Practical code (Codes/)
 
 | Script | Purpose |
-|--------|---------|
+|---------|----------|
 | `Codes/Python/08_cryptography/hash_file.py` | Compute MD5/SHA-1/SHA-256/SHA-512 of a file |
 | `Codes/Bash/08_cryptography/hash_and_cert_check.sh` | Hash a file or inspect a certificate (file or live TLS endpoint) |
 

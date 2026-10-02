@@ -15,7 +15,7 @@ Get-WinEvent -FilterHashtable @{LogName='Security'; Id=4624,4625} -MaxEvents 20
 
 ## SIEM مختبري
 | | |
-|--|--|
+|---|---|
 | **أمثلة** | Wazuh، Security Onion خفيف، مكدس ELK محلي |
 | **الغرض** | بحث وارتباط وتصميم كشف في مختبر تستضيفه |
 

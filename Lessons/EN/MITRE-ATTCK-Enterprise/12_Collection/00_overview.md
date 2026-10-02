@@ -13,7 +13,7 @@ Collection consists of techniques adversaries may use to gather information and 
 ## Techniques in this Tactic (41 total)
 
 | ID | Name | Type |
-|----|------|------|
+|-----|-------|-------|
 | [T1005](T1005_Data_from_Local_System.md) | Data from Local System | Technique |
 | [T1025](T1025_Data_from_Removable_Media.md) | Data from Removable Media | Technique |
 | [T1039](T1039_Data_from_Network_Shared_Drive.md) | Data from Network Shared Drive | Technique |

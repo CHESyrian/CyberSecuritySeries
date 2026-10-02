@@ -41,7 +41,7 @@ By the end of this stage you will be able to:
 ### 1. Severity versus confidence
 
 | Concept | Meaning | Laboratory illustration |
-|---------|---------|-------------------------|
+|----------|----------|--------------------------|
 | **Severity** | Potential impact if the activity is genuine | Successful admin logon after brute force = high severity |
 | **Confidence** | How sure we are that the detection correctly identified the activity | Many failures from a known scanner IP may be low confidence until context is checked |
 
